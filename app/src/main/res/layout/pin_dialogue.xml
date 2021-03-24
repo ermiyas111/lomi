@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Please input your mobile banking PIN."
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/pinEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/txt_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Show description about safety of pin"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:onClick="showDescription"/>
+
+    <TextView
+        android:id="@+id/txt_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Out privacy policy is your pin will not be saved neither on Internal storage nor on cloud database. The CBE mobile banking system will notify you by text message about any transaction made by your account."
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_yes"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="#3E80B4"
+            android:clickable="true"
+            android:text="Yes"
+            android:textColor="#4DBCD2"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_no"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="#3E80B4"
+            android:clickable="true"
+            android:text="No"
+            android:textColor="#4DBCD2"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="500dp"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_dia1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="ENABLE ACCESSIBILITY SERVICE"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txt_dia2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="You need to enable our accessibility service for the app to perform correctly. Follow the following simple steps."
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txt_dia3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="1. Click ACCESSIBILITY SETTING below"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txt_dia4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="2. Select and turn on 'Lomi'"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_yes"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="#3E80B4"
+            android:clickable="true"
+            android:text="ACCESSIBILITY SETTING"
+            android:textColor="#4DBCD2"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

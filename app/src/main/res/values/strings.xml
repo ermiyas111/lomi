@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LomiDemoE</string>
+    <string name="accessibilityDescription">Lomi app needs this accessibility service, so that it can confirm the transactions made. Never turn it off.</string>
+</resources>
